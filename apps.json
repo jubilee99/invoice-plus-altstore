@@ -1,0 +1,54 @@
+{
+    "name": "TigerRack Apps",
+    "identifier": "com.tigerrack.apps",
+    "subtitle": "社内業務アプリケーション",
+    "description": "TigerRack社内で使用する業務アプリケーションの配布ソース",
+    "iconURL": "https://raw.githubusercontent.com/jubilee99/invoice-plus-altstore/main/assets/icon.png",
+    "headerURL": "https://raw.githubusercontent.com/jubilee99/invoice-plus-altstore/main/assets/header.png",
+    "website": "https://github.com/jubilee99/invoice-plus-altstore",
+    "tintColor": "007AFF",
+    "apps": [
+        {
+            "name": "invoice+",
+            "bundleIdentifier": "com.tigerrack.invoiceMobile",
+            "developerName": "TigerRack",
+            "subtitle": "電帳法準拠の請求書管理",
+            "version": "1.0.0",
+            "versionDate": "2026-01-05",
+            "versionDescription": "初回ベータリリース\n\n【主な機能】\n• 📸 書類スキャン機能\n• 📏 自動サイズ判定 (A4/A5/レシート)\n• 🔍 解像度チェック (電帳法準拠)\n• 🔒 セキュア通信 (JWT認証)\n• ⚙️ サーバー接続先の動的変更\n\n【初回設定】\nログイン画面の設定アイコン(⚙️)から接続先を設定してください:\nhttps://192.168.24.151:9005/api",
+            "downloadURL": "https://raw.githubusercontent.com/jubilee99/invoice-plus-altstore/main/ipa/invoice_mobile_v1.0.0.ipa",
+            "localizedDescription": "電子帳簿保存法に準拠した請求書管理モバイルアプリ。カメラを使用した高品質スキャン、自動サイズ判定、解像度チェックなどの機能を搭載。社内LANで本番サーバーと連携し、請求書のスキャン・アップロードが可能です。",
+            "iconURL": "https://raw.githubusercontent.com/jubilee99/invoice-plus-altstore/main/assets/icon.png",
+            "tintColor": "007AFF",
+            "size": 10343080,
+            "screenshotURLs": [
+                "https://raw.githubusercontent.com/jubilee99/invoice-plus-altstore/main/assets/screenshot1.png",
+                "https://raw.githubusercontent.com/jubilee99/invoice-plus-altstore/main/assets/screenshot2.png"
+            ],
+            "permissions": [
+                {
+                    "type": "camera",
+                    "usageDescription": "請求書のスキャンにカメラを使用します"
+                },
+                {
+                    "type": "photos",
+                    "usageDescription": "スキャンした画像を保存するためにフォトライブラリへのアクセスが必要です"
+                }
+            ],
+            "minOSVersion": "15.0",
+            "maxOSVersion": "18.0"
+        }
+    ],
+    "news": [
+        {
+            "title": "invoice+ v1.0.0 ベータリリース",
+            "identifier": "invoice-plus-beta-release",
+            "caption": "電帳法準拠の請求書管理アプリがリリースされました",
+            "date": "2026-01-05",
+            "tintColor": "007AFF",
+            "imageURL": "https://raw.githubusercontent.com/jubilee99/invoice-plus-altstore/main/assets/news_banner.png",
+            "notify": true,
+            "url": "https://github.com/jubilee99/invoice-plus-altstore/releases/tag/v1.0.0"
+        }
+    ]
+}
